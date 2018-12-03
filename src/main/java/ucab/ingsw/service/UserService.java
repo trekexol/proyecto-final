@@ -111,6 +111,7 @@ public class UserService {
         } else {
             User user = new User();
 
+
             user.setFirstName(command.getFirstName());
             user.setLastName(command.getLastName());
             user.setEmail(command.getEmail());
